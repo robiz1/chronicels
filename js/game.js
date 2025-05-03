@@ -32,7 +32,7 @@ window.addEventListener('DOMContentLoaded', () => {
             <p>kepala ku sangat pusing dan aku berusaha untuk berdiri, karena hari sudah malam dan aku harus menjadi tempat yang aman.
             
             <p> <strong>aku berpikir sejenak arah mana yang akan aku pergi</strong>`,
-            img: "../images/aria_room.jpg",
+            img: "../images/mc.png",
             options: [
                 { text: "pergi ke pusat kota", nextScene: "a2" },
                 { text: "pergi ke ujung kota dekat dengan hutan", nextScene: "a3" }
