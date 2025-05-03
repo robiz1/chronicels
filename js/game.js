@@ -78,9 +78,20 @@ window.addEventListener('DOMContentLoaded', () => {
             img: "../images/kael_talking.jpg",
             options: [
                 { text: "mencoba untuk melawan", nextScene: "a3b" },
-                { text: "lari dan kembali ke rumah", nextScene: "a3b" },
+                { text: "lari dan kembali ke rumah", nextScene: "a3a" },
             ]
         },
+
+        a3a: {
+            text:`aku secara perlahan mudur menjauh dan tidak membuat gerakan yang mendadak, setelah menjuah dari beruang itu aku berlari sekuat tenaga ke arah kota
+            <p>hati ku kacau, jantung berdebar kencang, aku berlari sekuat tenaga, hingga sampai ke ujung kota lagi.
+            <p>setelah kelelahan aku mulai untuk istirahat dan tidur untuk menjaga tenaga ku di ke-esokan harinya`,
+            img:"",
+            options:[
+                {text: "tidur sampai keesokan harinya", nextScene: "a5"}
+            ]
+        },
+
         a3b: {
             text: `<p>aku mengambil posisi bersiap untuk bertarung, dengan kapak di tangan-ku
             <p> aku berlari ke arahn-nya, dan menhujam kan kapak ke arah bawah seperti kilat, mencabik bahu beruang itu
